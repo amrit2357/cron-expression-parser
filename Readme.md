@@ -31,7 +31,7 @@ Cron expressions are written as a string consisting of these five fields separat
 1. **Clone the repository:**
 
     ```bash
-    git clone
+    git clone https://github.com/amrit2357/cron-expression-parser.git
     ```
 
 2. **Navigate to the project directory:**
