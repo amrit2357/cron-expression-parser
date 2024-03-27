@@ -26,15 +26,6 @@ Cron expressions are written as a string consisting of these five fields separat
 - **Every Monday at 5 PM:** `0 17 * * 1`
 - **Every 15 minutes:** `*/15 * * * *`
 
-* * * * *
-- - - - -
-| | | | |
-| | | | +----- Day of the week (0 - 7) (Sunday is 0 or 7)
-| | | +------- Month (1 - 12)
-| | +--------- Day of the month (1 - 31)
-| +----------- Hour (0 - 23)
-+------------- Minute (0 - 59)
-
 ## Installation
 
 1. **Clone the repository:**
