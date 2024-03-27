@@ -1,0 +1,30 @@
+{
+  "name": "cronparser",
+  "version": "1.0.0",
+  "description": "Command line Cron Parser Tool with node js.",
+  "main": "index.js",
+  "preferGlobal": true,
+  "bin": {
+    "dict": "./bin/cronParser"
+  },
+  "scripts": {
+    "test": "mocha ./tests/*.test.js --timeout 10000 --exit",
+    "debug": "node index.js"
+  },
+  "keywords": [
+    "Command",
+    "Line",
+    "CronParser",
+    "Nodejs"
+  ],
+  "author": "Amritpal singh",
+  "license": "ISC",
+  "homepage": "https://github.com/amrit2357/command_line_dict#readme",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "chai": "^5.1.0",
+    "mocha": "^10.4.0"
+  }
+}
